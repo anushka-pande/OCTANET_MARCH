@@ -52,8 +52,8 @@ nav {
 .watermark {
   position: absolute;
   color: rgba(255, 255, 255, 0.5);
-  letter-spacing: 48px;
-  bottom: 1%;
+  letter-spacing: 46px;
+  bottom: 0;
   left: 5%;
   font-size: 128px;
   text-transform: uppercase;
@@ -131,4 +131,18 @@ nav {
 #menubar {
   font-size: 30px;
   cursor: pointer;
+}
+
+footer {
+  position: relative;
+}
+
+.p-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: black;
+  font-size: 20px;
+  padding: 20px 20px;
+  margin: 0;
 }
